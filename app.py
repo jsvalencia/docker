@@ -1,3 +1,4 @@
+import os # <--- ADD THIS LINE
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
